@@ -18,7 +18,7 @@ export default function Dashboard({ auth }) {
                 </div>
             </div>
             
-<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 auto-rows-min mx-16">
+            <div className="grid grid-cols-1 gap-4 auto-rows-max mx-64">
   <div className="card bg-base-100 w-full shadow-xl">
     <div className="card-body">
       <h2 className="card-title">Task 1</h2>
