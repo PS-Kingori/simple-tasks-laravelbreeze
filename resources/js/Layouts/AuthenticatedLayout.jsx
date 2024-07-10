@@ -15,9 +15,10 @@ export default function Authenticated({ user, header, children }) {
                     <div className="flex justify-between h-16">
                         <div className="flex">
                             <div className="shrink-0 flex items-center">
-                                <Link href="/">
-                                    <ApplicationLogo className="block h-9 w-auto fill-current text-gray-800" />
-                                </Link>
+                            <Link className='flex flex-col items-center ' href="/">
+                <img className="w-10"src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAyElEQVRIS+1V3QnCMBD+rgs4gjqE9tVBIuhkCu0gvqpLpBs4gSeGXBqCqUdpESHfW8n1vh+SO8LMoJn7/5CA72aHJ51AWA26ZFhUfKRNe/lUl42Ir8aCaKmKkGGpbtaDBKJYCvm2Z1VzD9o2TqwTVuEgjoIDURwKxxK8/4sc9QS+4SQEQOhTCALSaOW7RFQi0kNxi8wDoMUkL5m5o7p1U7i/pm484ywHo2dRbtilYO9IFVKkOEV+H3hHX3cCcxePZzXBVPj/pf8CGq3QGeB1glEAAAAASUVORK5CYII="/>
+                <h3>Simple tasks</h3>
+                </Link>
                             </div>
 
                             <div className="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
